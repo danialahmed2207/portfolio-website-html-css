@@ -1,20 +1,34 @@
-# portfolio-website-html-css
-Einfaches Portfolio Projekt mit HTML und CSS.
+# Portfolio Website - Woche 1
 
-# Portfolio Website
+Dies ist mein erstes Portfolio-Projekt im HTML/CSS Grundlagenkurs.
 
-Ein einfaches Portfolio Projekt mit HTML und CSS.
+## Beschreibung
 
-## Inhalt
+Eine einfache, statische Portfolio-Website mit drei Abschnitten:
+- Über mich
+- Meine Skills
+- Kontaktformular
 
-Diese Webseite enthält:
-
-- eine kurze Vorstellung
-- eine Übersicht meiner Skills
-- ein Kontaktformular
-
-## Technologien
+## Verwendete Technologien
 
 - HTML5
-- CSS
-- Flexbox
+- CSS3
+- Flexbox für das Layout
+
+## Ziel der Aufgabe
+
+Das Ziel war es, eine einfache Website zu erstellen und dabei folgende Konzepte zu üben:
+- Grundlegende HTML-Struktur
+- Verlinkung eines externen CSS-Stylesheets
+- Navigation mit Ankerlinks
+- Flexbox für die Navigation
+- Einfache Formulare erstellen
+- Hover-Effekte mit CSS
+
+## GitHub Pages
+
+Diese Website kann später auf GitHub Pages veröffentlicht werden.
+
+---
+
+Erstellt von Danial Ahmed im Rahmen des Webentwicklungs-Kurses.

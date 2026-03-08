@@ -1,72 +1,60 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Über mich - Danial Ahmed</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <header>
+        <nav>
+            <h1>Mein Portfolio</h1>
+            <ul>
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-<h1>Danial Ahmed</h1>
+    <main>
+        <section id="about">
+            <h2>Über mich</h2>
+            <p>Hallo! Ich bin Danial und ich lerne gerade HTML und CSS. Das hier ist meine erste Website.</p>
+            <p>Ich finde Webentwicklung ziemlich interessant und möchte mehr darüber lernen.</p>
+        </section>
 
-<nav>
-<a href="#about">Über mich</a>
-<a href="#skills">Skills</a>
-<a href="#contact">Kontakt</a>
-</nav>
+        <section id="skills">
+            <h2>Meine Skills</h2>
+            <ul>
+                <li>HTML5 (Grundlagen)</li>
+                <li>CSS3 (Grundlagen)</li>
+                <li>Erste Schritte mit Flexbox</li>
+                <li>VS Code benutzen</li>
+            </ul>
+        </section>
 
-</header>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Schreib mir gerne eine Nachricht!</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="nachricht">Nachricht:</label>
+                <textarea id="nachricht" name="nachricht" rows="4"></textarea>
+                
+                <button type="submit">Abschicken</button>
+            </form>
+        </section>
+    </main>
 
-<main>
-
-<section id="about">
-<h2>Über mich</h2>
-<p>Hallo! Ich bin Danial und lerne derzeit Webentwicklung im Syntax Kurs.</p>
-<p>Ich interessiere mich besonders für Backend Entwicklung, APIs und Cloud Technologien.</p>
-</section>
-
-<section id="skills">
-<h2>Meine Skills</h2>
-
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>Python</li>
-<li>Linux</li>
-<li>Git & GitHub</li>
-</ul>
-
-</section>
-
-<section id="contact">
-
-<h2>Kontakt</h2>
-
-<form>
-
-<label for="name">Name</label>
-<input type="text" id="name" required>
-
-<label for="email">E-Mail</label>
-<input type="email" id="email" required>
-
-<label for="message">Nachricht</label>
-<textarea id="message" required></textarea>
-
-<button type="submit">Absenden</button>
-
-</form>
-
-</section>
-
-</main>
-
-<footer>
-<p>© 2026 Danial Ahmed</p>
-</footer>
-
+    <footer>
+        <p>&copy; 2025 Danial Ahmed - Alle Rechte vorbehalten</p>
+    </footer>
 </body>
 </html>
