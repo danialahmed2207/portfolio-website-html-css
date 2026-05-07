@@ -1,34 +1,60 @@
-# Portfolio Website - Woche 1
+# Personal Portfolio Website
 
-Dies ist mein erstes Portfolio-Projekt im HTML/CSS Grundlagenkurs.
+![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![Responsive](https://img.shields.io/badge/Design-Responsive-success)
 
-## Beschreibung
-
-Eine einfache, statische Portfolio-Website mit drei Abschnitten:
-- Über mich
-- Meine Skills
-- Kontaktformular
-
-## Verwendete Technologien
-
-- HTML5
-- CSS3
-- Flexbox für das Layout
-
-## Ziel der Aufgabe
-
-Das Ziel war es, eine einfache Website zu erstellen und dabei folgende Konzepte zu üben:
-- Grundlegende HTML-Struktur
-- Verlinkung eines externen CSS-Stylesheets
-- Navigation mit Ankerlinks
-- Flexbox für die Navigation
-- Einfache Formulare erstellen
-- Hover-Effekte mit CSS
-
-## GitHub Pages
-
-Diese Website kann später auf GitHub Pages veröffentlicht werden.
+> A clean, responsive personal portfolio website built with HTML5 and CSS3.
 
 ---
 
-Erstellt von Danial Ahmed im Rahmen des Webentwicklungs-Kurses.
+## About
+
+This is a simple but modern portfolio website demonstrating foundational front-end skills. It features a responsive layout, semantic HTML structure, and custom CSS styling.
+
+Built as a hands-on learning project to practice HTML/CSS fundamentals.
+
+---
+
+## Features
+
+- Fully responsive design (mobile, tablet, desktop)
+- Semantic HTML5 structure
+- Custom CSS with CSS variables
+- Smooth scrolling navigation
+- Clean typography and spacing
+- Cross-browser compatible
+
+---
+
+## File Structure
+
+```
+portfolio-website-html-css/
+├── index.html
+├── style.css
+└── README.md
+```
+
+---
+
+## How to View
+
+1. Clone the repository
+2. Open `index.html` in any modern web browser
+
+```bash
+git clone https://github.com/danialahmed2207/portfolio-website-html-css.git
+cd portfolio-website-html-css
+# Open index.html in your browser
+```
+
+---
+
+## Skills Demonstrated
+
+- Semantic HTML5 markup
+- CSS Flexbox and responsive design
+- CSS custom properties (variables)
+- Mobile-first approach
+- Clean code structure and comments
